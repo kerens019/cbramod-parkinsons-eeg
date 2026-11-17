@@ -1,0 +1,23 @@
+# Participant data and results must never be committed
+data/
+results/
+*.npy
+*.xlsx
+*.csv
+*.pth
+*.pt
+
+# CBraMod code/weights are downloaded separately
+CBraMod/
+pretrained_weights/
+
+# Python / tooling
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
+.Rhistory
